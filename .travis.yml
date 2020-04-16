@@ -1,10 +1,10 @@
 language: ruby
 os: linux
-  jobs:
-    include:
-      - dist: bionic
-        virt: vm
-        group: dev
+jobs:
+  include:
+    - dist: bionic
+      virt: vm
+      group: dev
       #    - dist: bionic
       #      virt: lxd
       #      group: dev
