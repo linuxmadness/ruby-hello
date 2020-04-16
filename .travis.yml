@@ -4,7 +4,7 @@ jobs:
   include:
     - dist: bionic
       virt: vm
-      group: dev
+      #group: dev
       #    - dist: bionic
       #      virt: lxd
       #      group: dev
