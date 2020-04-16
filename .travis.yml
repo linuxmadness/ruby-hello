@@ -1,3 +1,4 @@
+language: ruby
 os: linux
   jobs:
     include:
