@@ -6,7 +6,8 @@ jobs:
       dist: bionic
       virt: vm
       group: dev
-      #    - dist: bionic
-      #      virt: lxd
-      #      group: dev
+    - os: linux 
+      dist: bionic
+      virt: lxd
+      group: dev
 
