@@ -2,9 +2,9 @@ language: ruby
 os: linux
   jobs:
     include:
-    - dist: bionic
-      virt: vm
-      #group: dev
+      - dist: bionic
+        virt: vm
+        group: dev
       #    - dist: bionic
       #      virt: lxd
       #      group: dev
