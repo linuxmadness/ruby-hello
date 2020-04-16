@@ -4,8 +4,8 @@ os: linux
     include:
     - dist: bionic
       virt: vm
-      group: dev
-    - dist: bionic
-      virt: lxd
-      group: dev
+      #group: dev
+      #    - dist: bionic
+      #      virt: lxd
+      #      group: dev
 
