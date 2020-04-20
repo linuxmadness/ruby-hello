@@ -15,7 +15,7 @@ jobs:
       virt: vm
       group: dev
     - os: linux 
-      dist: focal
+      dist: focalsd
       virt: lxd
       group: dev
 
