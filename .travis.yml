@@ -1,21 +1,9 @@
-language: ruby
-#os: linux
+os: linux
 jobs:
-  include:
-    - os: linux
-      dist: bionic
-      virt: vm
-      group: dev
-    - os: linux 
-      dist: bionic
-      virt: lxd
-      group: dev
-    - os: linux
-      dist: focal
-      virt: vm
-      group: dev
-    - os: linux 
-      dist: focal
-      virt: lxd
-      group: dev
-
+include:
+  - dist: focal
+    virt: vm
+    group: dev
+  - dist: focal
+    virt: lxd
+    group: dev
