@@ -10,4 +10,12 @@ jobs:
       dist: bionic
       virt: lxd
       group: dev
+    - os: linux
+      dist: focal
+      virt: vm
+      group: dev
+    - os: linux 
+      dist: focal
+      virt: lxd
+      group: dev
 
